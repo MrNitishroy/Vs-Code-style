@@ -39,8 +39,8 @@
 
 /* List item label name */
 .monaco-list.list_id_1 .monaco-list-row.selected .label-name {
-    color: #fff !important;
-    opacity: 1 !important;
+    /* color: #fff !important;
+    opacity: 1 !important; */
 }
 
 /* File explorer action buttons */
@@ -62,6 +62,12 @@
 .monaco-scrollable-element>.shadow.top {
     box-shadow: 0px 0px 10px rgba(0,0,0,.75) !important;
     top: -3px !important;
+}
+
+/* activity bar  */
+.composite-bar-container
+{
+    justify-content: center !important;
 }
 
 /* Sidebar title */
