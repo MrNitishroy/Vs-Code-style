@@ -12,7 +12,7 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "editor.minimap.enabled": false,
-    "editor.lineNumbers": "off",
+    "editor.lineNumbers": "on",
     "editor.guides.indentation": false,
     "scm.diffDecorations": "none",
     "editor.hover.delay": 1500,
@@ -153,8 +153,7 @@
     },
     "tailwindCSS.experimental.configFile": null,
     "editor.fontWeight": "400",
-    "workbench.activityBar.location": "bottom",
-    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "top",
     "editor.inlineSuggest.suppressSuggestions": true,
     "codesnap.backgroundColor": "#FFC540",
     "codesnap.showLineNumbers": false,
@@ -185,17 +184,18 @@
             }
           ]
     },
-    "material-icon-theme.saturation": 0,
+
     "vscode_custom_css.imports": [
         "file:///C:/vsstyle/style.css",
         "file:///C:/vsstyle/vscode-script.js"
     ],
 
     "workbench.colorTheme": "Dark-Grey",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "vscode-icontheme-nomo-dark-macos",
     "workbench.sideBar.location": "right",
     "material-icon-theme.files.color": "#42a5f5",
     "workbench.tree.enableStickyScroll": false,
-    "workbench.editor.showTabs": "none",
-    "editor.mouseWheelZoom": true
+    "workbench.editor.showTabs": "single",
+    "editor.mouseWheelZoom": true,
+    "window.menuBarVisibility": "compact"
 }
